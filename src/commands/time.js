@@ -10,7 +10,7 @@ module.exports = (msg, match) =>{
   const fromId = msg.from.id
   const chatId = msg.chat.id
   const D = moment.unix(msg.date)
-  const hhmm = D.format('hhmm')
+  const hhmm = D.format('HHmm')
 
   const srcImgs = [
     `http://www.clockm.com/tw/img/clk/hour/${hhmm}.jpg`,
